@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Jogo da Memória</title>
+</head>
+<body>
+    <section class="memory-game">
+        <div class="card" data-card="arqueiro">
+            <img src="assets/img/carta_arq.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="bandida">
+            <img src="assets/img/carta_bandida.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="lenhador">
+            <img src="assets/img/carta_lenhador.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="mago">
+            <img src="assets/img/carta_mago.jpeg.opdownload" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="minerador">
+            <img src="assets/img/carta_minerador.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="princesa">
+            <img src="assets/img/carta_princesa.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="arqueiro">
+            <img src="assets/img/carta_arq.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="bandida">
+            <img src="assets/img/carta_bandida.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="lenhador">
+            <img src="assets/img/carta_lenhador.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="mago">
+            <img src="assets/img/carta_mago.jpeg.opdownload" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="minerador">
+            <img src="assets/img/carta_minerador.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+        <div class="card" data-card="princesa">
+            <img src="assets/img/carta_princesa.png" alt="face da carta" class="card-front">
+            <img src="assets/img/carta_fechada.png" alt="verso da carta" class="card-back">
+        </div>
+    </section>
+    <section class="dashboard">
+        <div class="jogo">
+            <p>Jogo da Memória</p>
+        </div>
+        <div class="contador">
+                <p>Quantidade de Erros</p>
+                <span id="currentNumber" class="contNumber">0</span>
+        </div>
+        <div class="erro" id="error">
+            <h1>Você perdeu!</h1>
+            <p>Reinicie o Jogo</p>
+        </div>
+        <div class="reset">
+            <button onclick="restart()">Reiniciar</button>
+        </div>
+    </section>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
